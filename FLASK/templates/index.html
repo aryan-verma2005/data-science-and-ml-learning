@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+
+</head>
+<body>
+    <p>your query was {{ query }}</p>
+    <h1>Hello from Aryan Verma</h1>
+    <p>Welcome to website</p>
+
+    {% extends 'layout.html' %}
+
+<!-- customizations -->
+
+{% block title %} Main Page {% endblock %}
+
+{% block content %}
+    <h1>Main Page</h1>
+    <p>Welcome to main page </p>
+{% endblock %}
+
+ {% block footer %}
+        &copy; Copyright 2026 by <a href="http://domain.invalid/">YOU</a>
+{% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Notebook and editor artifacts
+.ipynb_checkpoints/
+.virtual_documents/
+.DS_Store
+
+# Model weights and generated vector indexes
+*.pt
+*.pth
+*.ckpt
+/Deep Learning/RAG/data/vector_store/
+
+# Downloaded datasets (keep download/setup instructions in project notes)
+/Deep Learning/CNN/data/
+/Deep Learning/RNN/IMDB Dataset.csv
+/Deep Learning/GAN/img_align_celeba/
+/employee_data.csv
+
+# These projects are independent GitHub repositories; see README.md
+/Supervised ML/minor_project/
+/Unsupervised ML/SmartCart Project/
